@@ -1,0 +1,21 @@
+# Python virtual environment & cache
+venv/
+__pycache__/
+*.pyc
+
+# Terraform state and modules (prevents large file push errors)[reference:1][reference:2]
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Kubernetes generated files
+*.kubeconfig
+
+# Environment & secrets
+.env
+*.env
+
+# IDE files
+.vscode/
+.idea/

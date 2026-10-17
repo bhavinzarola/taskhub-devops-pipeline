@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: notes-app
+data:
+  DB_HOST: "postgres-svc"
+  DB_NAME: "MyFirstAppDb"
+  DB_USER: "postgres"
+  DB_PORT: "5432"
